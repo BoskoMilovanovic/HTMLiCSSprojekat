@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bosko Milovanovic</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Assets/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./Assets/bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #logo {
+            height: 50px;
+        }
+
+        @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+        #footer a {
+            color: #ffffff;
+            text-decoration: none !important;
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects;
+        }
+
+        #footer ul.social li {
+            padding: 3px 0;
+        }
+
+        #footer ul.social li a i {
+            margin-right: 5px;
+            font-size: 25px;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+
+        #footer ul.social li:hover a i {
+            font-size: 30px;
+            margin-top: -10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/BM logo 2.JPG" id="logo"></a>
+        <div>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./index.html">Bosko Milovanovic</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white" dropdown-toggle href="./index.html" data-toggle="dropdown">
+                        O meni
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#kontrole">Osnovni podaci</a>
+                        <a class="dropdown-item" href="#osnovnipodaci">Obrazovanje</a>
+                        <a class="dropdown-item" href="#obrazovanje">Radno iskustvo</a>
+                        <a class="dropdown-item" href="#rad">Veštine</a>
+                        <a class="dropdown-item" href="#skills">Interesovanja</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./projekti.html">Projekti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5 pt-5 text-right" id="kontrole">
+        <div class="dropdown">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                Muzika
+            </button>
+            <div class="dropdown-menu">
+                <audio controls autoplay loop>
+                    <source src="./Assets/Bridges.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center">Bosko Milovanović</h1>
+        <div class="row mb-5">
+            <div class="col-md-3">
+                <img class="img-fluid d-block mx-auto" style="border-radius: 10px" src="./Assets/Profile picture.jpg">
+            </div>
+            <div class="col-md-9" id="osnovnipodaci">
+                <dl>
+                    <dt>Datum rođenja:</dt>
+                    <dd>21.12.1985.</dd>
+                    <dt>Adresa:</dt>
+                    <dd>Milutina Milankovića, Novi Beograd</dd>
+                    <dt>Telefon:</dt>
+                    <dd>069/22-84-614</dd>
+                    <dt>E-mail:</dt>
+                    <dd>boskomilovanovic@gmail.com</dd>
+                </dl>
+            </div>
+
+        </div>
+        <div class="row mb-5" id="obrazovanje">
+            <div class="col-md-3">
+                <h4>Obrazovanje:</h4>
+            </div>
+            <div class="col-md-9">
+                <table class="table">
+                    <tr>
+                        <td style="width:25%">2000 - 2004</td>
+                        <td>Gimnazija "9. Maj" u Nišu <br> Opšti smer</td>
+                    </tr>
+                    <tr>
+                        <td>2004 - 2011</td>
+                        <td>Mašinski fakultet u Nišu <br> Mašinske konstrukcije i mehanizacija</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row mb-5" id="rad">
+            <div class="col-md-3">
+                <h4>Radno iskustvo:</h4>
+            </div>
+            <div class="col-md-9">
+                <table class="table text-left">
+                    <tr>
+                        <td style="width:25%">2011 - 2015</td>
+                        <td>Vodotehnika d.o.o. <br> Projektant</td>
+                    </tr>
+                    <tr>
+                        <td>2015 - 2017</td>
+                        <td>NCR Corporation <br> Tehnička podrška</td>
+                    </tr>
+                    <tr>
+                        <td>2017 - 2019</td>
+                        <td>Vodotehnika d.o.o. <br> Projektant</td>
+                    </tr>
+                    <tr>
+                        <td>2019 - </td>
+                        <td>Alex Company E&C <br> Projektant</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row  mb-5" id="skills">
+            <div class="col-md-3">
+                <h4>Veštine:</h4>
+            </div>
+            <div class="col-md-9">
+                <table class="table">
+                    <tr>
+                        <td style="width:25%">Software:</td>
+                        <td>Microsoft Office – Word, Excel, Access and Power Point <br>
+                            AutoCAD, CorelDRAW, Solid Works, Rhinoceros, Corel draw, Autodesk Inventor, Matlab,
+                            Nastran, Remedy, Zabbix, Tableau, MySQL</td>
+                    </tr>
+                    <tr>
+                        <td>Poznavanje stranog jezika:</td>
+                        <td>Engleski - odlično</td>
+                    </tr>
+                    <tr>
+                        <td>Licence i sertifikati</td>
+                        <td>Sertifikat osnovnog poznavanja rečunara iz VLD škole računara <br>
+                            Sertifikat za rad u AutoCAD-u iz VLD škole računara <br>
+                            Sertifikat za poznavanje osnova MySQL-a iz Oxford Academy <br>
+                            Inženjerska licenca izdata od strane Inženjeske Komore Srbije</Inp>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row  mb-5 pb-5">
+            <div class="col-md-3">
+                <h4>Interesovanja:</h4>
+            </div>
+            <div class="col-md-9">
+                <ul>
+                    <li>Sport (fudbal, košarka, tenis, odbojka, stoni tenis)</li>
+                    <li>PC hardware i software</li>
+                    <li>Mobilni telefoni</li>
+                    <li>Automobili</li>
+                    <li>Filmovi, serije i anime</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section id="footer" class="fixed-bottom bg-dark py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-1">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/golmanboki"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/boshko85/"><i
+                                    class="fa fa-instagram"></i></a>
+                        <li class="list-inline-item"><a href="mailto:boskomilovanovic@gmail.com"><i
+                                    class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-1 text-center text-white">
+
+                    <p class="h6">&copy All right Reserved. Bosko Milovanovic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Projekti</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Assets/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./Assets/bootstrap-4.3.1-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #logo {
+            height: 50px;
+        }
+
+        @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+        #footer a {
+            color: #ffffff;
+            text-decoration: none !important;
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects;
+        }
+
+        #footer ul.social li {
+            padding: 3px 0;
+        }
+
+        #footer ul.social li a i {
+            margin-right: 5px;
+            font-size: 25px;
+            -webkit-transition: .5s all ease;
+            -moz-transition: .5s all ease;
+            transition: .5s all ease;
+        }
+
+        #footer ul.social li:hover a i {
+            font-size: 30px;
+            margin-top: -10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+        <a class="navbar-brand" href="./index.html"><img src="./Assets/BM logo 2.JPG" id="logo"></a>
+        <div>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./index.html">Bosko Milovanovic</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white" dropdown-toggle href="./index.html" data-toggle="dropdown">
+                        O meni
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#kontrole">Osnovni podaci</a>
+                        <a class="dropdown-item" href="#osnovnipodaci">Obrazovanje</a>
+                        <a class="dropdown-item" href="#obrazovanje">Radno iskustvo</a>
+                        <a class="dropdown-item" href="#rad">Veštine</a>
+                        <a class="dropdown-item" href="#skills">Interesovanja</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./projekti.html">Projekti</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="./kontakt.html">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5 pt-5 text-right" id="kontrole">
+        <div class="dropdown">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                Muzika
+            </button>
+            <div class="dropdown-menu">
+                <audio controls autoplay loop>
+                    <source src="./Assets/Bridges.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h3>Projekti:</h3>
+            <ul class="list-group">
+                <li class="list-item-group"><a href="https://www.blizzard.com/en-us/">Blizzard</a></li>
+                <li class="list-item-group"><a href="https://www.facebook.com">Facebook</a></li>
+                <li class="list-item-group"><a href="https://www.linkedin.com">LinkedIn</a></li>
+                <li class="list-item-group"><a href="https://www.youtube.com">YouTube</a></li>
+                <li class="list-item-group"><a href="https://soundcloud.com">SoundCloud</a></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <section id="footer" class="fixed-bottom bg-dark py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mt-1">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://www.facebook.com/golmanboki"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/boshko85/"><i
+                                    class="fa fa-instagram"></i></a>
+                        <li class="list-inline-item"><a href="mailto:boskomilovanovic@gmail.com"><i
+                                    class="fa fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mt-1 text-center text-white">
+
+                    <p class="h6">&copy All right Reserved. Bosko Milovanovic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
